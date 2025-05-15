@@ -716,7 +716,7 @@ body {
 }
 
 .v184_10 {
-  width: 161px;
+  width: 180px;
   color: rgba(255, 255, 255, 1);
   position: absolute;
   top: 49px;
@@ -1354,4 +1354,30 @@ body {
   font-size: 55px;
   opacity: 1;
   text-align: left;
+}
+
+.box-fundo {
+    background: rgba(217, 217, 217, 1);
+    padding: 20px;
+    border-radius: 8px; /* opcional: para cantos arredondados */
+    display: inline-block; /* ou 'block' se quiser ocupar largura total */
+    margin: 20px 0;
+}
+
+.v184_10 {
+
+  background: rgba(217, 217, 217, 1);
+    padding: 5px 10px; /* Espaçamento interno para parecer uma caixa */
+    display: block; /* Para a largura se ajustar ao conteúdo */
+    border-radius: 20px;     /* Opcional: cantos arredondados */
+    margin-bottom: 10px;    /* Espaço abaixo da caixa */
+    margin-right: 10px;
+  }
+
+.v184_16 {
+  background: rgba(217, 217, 217, 1);
+    padding: 5px 10px; /* Espaçamento interno para parecer uma caixa */
+    display: block; /* Para a largura se ajustar ao conteúdo */
+    border-radius: 20px;     /* Opcional: cantos arredondados */
+    margin-bottom: 10px;    /* Espaço abaixo da caixa */
 }
